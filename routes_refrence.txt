@@ -1,0 +1,16 @@
+SAMPLE ROUTES 
+
+http://localhost:8080/limit-offer/create
+
+http://localhost:8080/account/create
+
+
+http://localhost:8080/limit-offer/list-active?account_id=4&active_date=2023-10-22
+
+http://localhost:8080/account/get?account_id=4
+
+ http://localhost:8080/limit-offer/update-status
+ BODY-{
+  "limit_offer_id": 9,
+  "status": "ACCEPTED"
+    }
